@@ -52,7 +52,7 @@ describe('invocarMetodo(object, method)', function() {
       },
     }
     invocarMetodo(object, 'incrementX');
-    expect(object.x).toBe(1);
+    expect(object.x).toBe(0);
   });
 });
 
